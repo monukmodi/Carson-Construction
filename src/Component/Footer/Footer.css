@@ -1,0 +1,17 @@
+.footer-logo{
+    width: 8rem;
+}
+.social-media{
+    margin-right: 25px;
+    font-size: 1.5rem;
+}
+.foot-img-grid{
+    width: 5.5rem;
+}
+.footer-bg-img{
+    background-image: url('../../Images/constr_Footer.jpg');
+    background-size: cover;     
+}
+.footer-bg-img>div{
+    padding-top: 25rem
+}

@@ -1,0 +1,42 @@
+.modifiedrow
+{
+padding-top:50px;
+}
+.modifiedcol
+{
+	 letter-spacing: 0.05em;
+}
+.head
+{
+	  font-weight: bold;
+}
+.para
+{
+	padding-top:20px;
+	padding-bottom:30px;
+}
+.gap
+{
+	padding-right:20px;
+}
+.paragraphleft
+{
+	padding-left:36px;
+}
+.modifiedtextarea
+{
+	height: calc(7.5em + .75rem + 2px);
+}
+.modifiedbutton
+{
+	background-color:#fab702!important;
+	border-color: unset!important;
+}
+.modifiedbutton:hover
+{
+	background-color:black!important;
+}
+.modifiedcont
+{
+	padding-bottom:50px;
+}

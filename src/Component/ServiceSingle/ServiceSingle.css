@@ -1,0 +1,26 @@
+.service-img{
+        width: 100%;
+}
+.navi-tog{
+        max-width: 16.2512% !important;
+        /* border: 1px solid; */
+        margin: 2px;
+        cursor: pointer;
+}
+.selected{
+        color: black;
+        /* background-color: #0d1f47; */
+        /* color: #dcdcdc */
+        background-color: white;
+}
+.navi-tog:hover{
+        /* border-left: 1px solid rgba(245, 211, 85, 0.88); */
+        cursor: pointer;
+}
+
+.base{
+        color: blue;
+}
+.kkk{
+        color: white
+}

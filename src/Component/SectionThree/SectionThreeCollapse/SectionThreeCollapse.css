@@ -1,0 +1,13 @@
+.collapse-right .MuiExpansionPanelSummary-content{
+    margin: 21px 0;
+}
+.collapse-right .MuiPaper-root{
+    background-color: #f8f8f8;
+    box-shadow: unset;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.collapse-right .MuiCollapse-container{
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+}

@@ -1,0 +1,74 @@
+.progress-bar {
+    width: 0;
+    animation: progress 1.5s ease-in-out forwards;
+    max-width:60%;
+    
+} 
+    .title {
+      opacity: 0;
+      animation: show 0.35s forwards ease-in-out 0.5s;
+    }
+  .Pro_style
+  {
+    border-bottom: 1px solid #0D1F47;
+    background-color: white;
+    border-radius: 0;
+  }
+  .Pro_bar_style
+  {
+    background-color:#0D1F47;
+  }
+  .para_first_letter::first-letter {
+   
+    color: #0D1F47;
+    
+    font-weight: 500;
+  }
+  .para_first_letter
+  {
+    color:  #676767;
+    line-height: 2.1rem;
+  }
+
+ .Container_Padding_Main
+ {
+  padding-top: 10%;
+  padding-bottom: 10%;
+ }
+ .Sub_Padding_progress
+ {
+  padding-top: 10%;
+ }
+ .Progress_Main
+ {
+  padding-top: 2%;
+ }
+.par_bottom_style
+{
+  padding-bottom: 1%;
+  font-weight: 700;
+
+}
+  @keyframes progress {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  } 
+  @keyframes show  {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @media only screen and (min-width:768px)and (max-width:991.5px)
+  {
+    .Sub_Padding_progress
+    {
+     padding-top: 22% ;
+    }
+  }

@@ -1,0 +1,31 @@
+.service-img
+{
+  width: 100%;
+}
+.customborder
+{
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  width:16%;
+}
+.customborder :hover
+{
+  border-left:3px solid orange;
+  
+}
+.txtcenter :hover
+{
+  color:orange;
+  
+}
+
+@media only screen and (min-width: 767px) and (max-width:992px)
+{
+  .mar-lef
+  {
+  margin-left: 91px;
+  }
+}
+@media only screen and (max-width:576px)
+{
+
+}

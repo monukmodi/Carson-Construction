@@ -1,0 +1,44 @@
+.customcol
+{
+border-right:1px solid #f2f2f2;
+padding:50px;
+}
+.textpadding
+{
+	padding-bottom:10px;
+}
+.firstcol
+{
+	padding-top:50px;
+	border-right:1px solid #f2f2f2;
+}
+.firstsectext
+{
+	padding-left:30px;
+	padding-right:50px;
+	padding-top:10px;
+}
+.firstsecheading
+{
+	padding-left:30px;
+	font-weight:700;
+}
+.firstsecsmallheading
+{
+	font-weight:100;
+	font-size:18px;
+	padding-left:30px;
+}
+.sectionalheading
+{
+	font-weight:650;
+}
+.readmorebutton
+{
+	padding-left:30px;
+	color:#ecad17;
+}
+.readmorebutton:hover
+{
+	color:#f9c25b;
+}

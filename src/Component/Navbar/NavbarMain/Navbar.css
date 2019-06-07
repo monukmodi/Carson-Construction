@@ -1,0 +1,28 @@
+/* .stk-top{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 90%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+/* } */
+.nav-top{
+    background-color: #0D1F47 !important;
+    color: white !important;
+}
+.social-icon{
+    border-left: 1px solid rgba( 0,0,0,0.08 );
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    color:#fff !important;
+}
+.nav-top .nav-link{
+    padding: 1.5rem .5rem;
+}
+@media only screen and (min-width:992px){
+    .dis-nvr-mb{
+        display: none !important;
+    }
+}

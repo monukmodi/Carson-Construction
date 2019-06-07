@@ -1,0 +1,15 @@
+.img-sty-secthree{
+    height: inherit;
+    width: 98%;
+    position: absolute;
+    bottom: 0;
+}
+@media only screen and (max-width:767px){
+    .img-sty-secthree{
+        position: unset;
+    }
+}
+.img-secthree{
+    background-color: #f8f8f8;
+    bottom: 0;
+}

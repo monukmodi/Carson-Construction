@@ -1,0 +1,50 @@
+.complete{
+    color: white;
+    background-image: url('../../Images/Homecounterbg.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    height:576px;
+    /* background-size: cover; */
+
+}
+
+/* .p{
+    margin-bottom: 0 !important;
+} */
+
+.heading{
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+
+.p1{
+    font-size: 16px;
+    margin-bottom: 0 !important;
+        }
+
+.p2{
+    font-size: 45px;
+    width:100%;
+    font-weight: 600;
+}
+
+.text1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.num1{
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+
+.b1{
+    border-right: 1px solid tan;
+}
+
+@media only screen and (max-width:360px){
+    .p2{font-size: 30px;}
+}

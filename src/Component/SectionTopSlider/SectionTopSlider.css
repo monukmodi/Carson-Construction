@@ -1,0 +1,132 @@
+.slidersection{
+    height: 625px;
+}
+.img-slide-back{
+    width: 100%;
+    height: 625px !important;
+    position: absolute;
+}
+.img-slide-above{
+    width: 100%;
+    height: 625px;
+    /* clip-path: polygon(100% 0, 100% 21%, 44% 100%, 0 100%, 77% 0); 
+    filter: scale(0.5) brightness(90%);   */
+    
+}
+.img-slide-above:hover{
+    /* visibility: hidden; */
+}
+.slidersection .carousel-caption{
+    top:50%;
+    left:50%;
+    right: unset;
+    bottom: unset;
+    transform: translate(-50%,-50%);
+    width: 79%;
+}
+.silde-heading{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.slide-bt{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 10px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.slide-bt:hover{
+    width: 200px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.slidersection .carousel-indicators>li{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+}
+.slidersection .carousel-control-prev{
+    display: none;
+}
+.slidersection .carousel-control-next{
+    display: none;
+}
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 2s !important;
+}
+/* Ken Burns Effect */
+.item-image {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+    transform: scale(1.2);
+}
+
+.item-image:nth-child(1) {
+    animation-name: kenburns-1;
+    z-index: 3;
+}
+.item-image:nth-child(2) {
+    animation-name: kenburns-2;
+    z-index: 2;
+}
+.item-image:nth-child(3) {
+    animation-name: kenburns-3;
+    z-index: 1;
+}
+
+@keyframes kenburns-1 {
+    0% {
+    	opacity: 0;
+    }
+    5% {
+    	opacity: 1;
+    }
+    95% {
+    	transform: scale3d(1.2, 1.2, 1.2) translate3d(69px, -2px, 0px);
+    	animation-timing-function: ease-in;
+    	opacity: 1;
+    }
+    100% {
+    	transform: scale3d(1.7, 1.7, 1.7) translate3d(-11px, -12px, 0px);
+    	opacity: 0;
+    }
+}
+
+@keyframes kenburns-2 {
+    0% {
+    	opacity: 0;
+    }
+    5% {
+    	opacity: 1;
+    }
+    95% {
+    	transform: scale3d(1.2, 1.2, 1.2) translate3d(69px, -2px, 0px);
+    	animation-timing-function: ease-in;
+    	opacity: 1;
+    }
+    100% {
+    	transform: scale3d(1.7, 1.7, 1.7) translate3d(-11px, -12px, 0px);
+    	opacity: 0;
+    }
+}
+
+@keyframes kenburns-3 {
+    0% {
+    	opacity: 0;
+    }
+    5% {
+    	opacity: 1;
+    }
+    95% {
+    	transform: scale3d(1.2, 1.2, 1.2) translate3d(69px, -2px, 0px);
+    	animation-timing-function: ease-in;
+    	opacity: 1;
+    }
+    100% {
+    	transform: scale3d(1.7, 1.7, 1.7) translate3d(-11px, -12px, 0px);
+    	opacity: 0;
+    }
+}
+/*  */

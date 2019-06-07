@@ -1,0 +1,23 @@
+.firstbackground
+{
+background-image:url('../../../Images/Aboutus.jpg');
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.heading h1
+{
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 57px;
+    letter-spacing: 0.05em;
+}
+.heading
+{
+	padding: 120px 0; 
+}
+@media only screen and (max-width: 763px){
+.heading{
+	text-align:center;
+}
+}

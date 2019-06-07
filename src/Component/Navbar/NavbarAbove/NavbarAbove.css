@@ -1,0 +1,22 @@
+.navbar-above{
+    display: flex;
+    justify-content: space-between;
+}
+.top-img-navbar{
+    width: 6rem;
+}
+.top-cmh{
+}
+.top-cmh{
+    font-size: 2.1rem;
+    padding: 1.5rem 0;
+}
+.top-hd{
+    font-size: 1rem;
+    padding: 1.2rem;
+}
+@media only screen and (max-width:991px){
+    .dis-mb{
+        display: none !important;
+    }
+}

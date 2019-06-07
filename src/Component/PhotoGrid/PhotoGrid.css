@@ -1,0 +1,12 @@
+.projectGridTabDesign{
+    /* border:2px solid black; */
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+}
+.tab{
+    color: yellow;
+    cursor: pointer;
+}
+.tabcur{
+    cursor: pointer;
+}
