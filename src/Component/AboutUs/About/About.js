@@ -36,7 +36,7 @@ export default class About extends Component {
               <p className="par_bottom_style">Kitchen Renovation</p>
             <div class="progress Pro_style ">
           
-              <div class="progress-bar Pro_bar_style"  >
+              <div class="progress-bar Pro_bar_style" style={{maxWidth:"80%"}}  >
               
               </div>
             </div>
@@ -44,7 +44,7 @@ export default class About extends Component {
             <div className="Progress_Main">
               <p className="par_bottom_style">Bathroom Renovation</p>
             <div class="progress Pro_style ">
-              <div class="progress-bar Pro_bar_style "style={{maxWidth:"70%"}}  >
+              <div class="progress-bar Pro_bar_style "style={{maxWidth:"80%"}}  >
               
               </div>
             </div>
@@ -52,14 +52,14 @@ export default class About extends Component {
             <div className="Progress_Main">
               <p className="par_bottom_style">Painting Services</p>
             <div class="progress Pro_style ">
-              <div class="progress-bar Pro_bar_style"style={{maxWidth:"40%"}}  >
+              <div class="progress-bar Pro_bar_style"style={{maxWidth:"80%"}}  >
                </div>
             </div>
             </div>
             <div className="Progress_Main">
               <p className="par_bottom_style">Basement Services</p>
             <div class="progress Pro_style">
-              <div class="progress-bar Pro_bar_style "style={{maxWidth:"30%"}}  >
+              <div class="progress-bar Pro_bar_style "style={{maxWidth:"80%"}}  >
          
               </div>
             </div>
@@ -67,15 +67,15 @@ export default class About extends Component {
             <div className="Progress_Main">
               <p className="par_bottom_style">Flooring Services</p>
             <div class="progress Pro_style">
-              <div class="progress-bar Pro_bar_style "style={{maxWidth:"70%"}}  >
+              <div class="progress-bar Pro_bar_style "style={{maxWidth:"80%"}}  >
            
               </div>
               </div>
             </div>
             <div className="Progress_Main">
-              <p className="par_bottom_style">Resilient Rubber Resurfacing</p>
+              <p className="par_bottom_style">Resilient Rubber Surfacing</p>
             <div class="progress Pro_style ">
-              <div class="progress-bar Pro_bar_style "style={{maxWidth:"90%"}}  >
+              <div class="progress-bar Pro_bar_style "style={{maxWidth:"80%"}}  >
               
               </div>
             </div>

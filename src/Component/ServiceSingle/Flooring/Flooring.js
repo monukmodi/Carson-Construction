@@ -16,10 +16,10 @@ export default class Flooring extends Component {
 
 
                 <div className="container">
-                    <div className="row">
+                    <div style={{marginTop:"35px"}} className="row">
                         
                         <div className="col-md-7">
-                        <h2 >Custom Design</h2>
+                        <h2 >Flooring Service</h2>
                     <p className="pt-3">Our flooring services are of top quality with long-lasting and easy installation procedures.  Choose your type of floor from real wood flooring, laminate, vinyl plank, and luxury carpets among other things.
                         Whether you’re decorating or renovating your kitchen, bathroom or living space, we have a different range of flooring and tiling to meet your every requirement for every room. Redoing your flooring leaves you with a very finished and polished look.</p>
                     <p>Choose from hundreds of styles and textures we offer, considering stain and odor-resistant options. The flooring services are done reviving the old worn out surfaces rendering it magnificent. </p>

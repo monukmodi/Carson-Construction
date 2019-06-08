@@ -97,7 +97,7 @@ export default class PhotoGrid extends Component {
                         <h6 className={this.state.restaurant? "tab" : "tabcur"}>PAINTING SERVICE</h6>
                     </div>
                     <div className="col-md-2" onClick={this.restaurantTab}>
-                        <h6 className={this.state.restaurant? "tab" : "tabcur"}>RESILIENT RUBBER RESURFACING</h6>
+                        <h6 className={this.state.restaurant? "tab" : "tabcur"}>RESILIENT RUBBER SURFACING</h6>
                     </div>
                 </div>
 

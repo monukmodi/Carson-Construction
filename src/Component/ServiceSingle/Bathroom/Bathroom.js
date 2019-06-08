@@ -15,7 +15,7 @@ export default class Bathroom extends Component {
                     <div className="row">
                        
                         <div className="col-md-7">
-                        <h2 >Custom Design</h2>
+                        <h2 >Bathroom Service</h2>
                     <p className="pt-3">Our experts will help you renovate your bathroom within the mentioned time frame. Be it a fitting or accessories we will look after everything. The bathroom decors are stunning and in alignment with the customer’s requirement. We help you finish your dream bathroom and take care of the whole thing from plumbing, lighting, and construction to decor. We have a long list of happy customers who can vouch for us.</p>
                     <p>The showers in contrast to the wall and bathtub and the walls change the outlook of the place rendering it pleasant. A wonderful stand-alone bathroom can be an excellent feature for the master ensuite. We have expertise in crafting the best bathrooms with a wide range of choices in the selection of accessories.</p>
                 </div>
@@ -32,7 +32,7 @@ export default class Bathroom extends Component {
                 <div className="container pt-3">
                 </div> */}
                 <div className="container">
-                    <div className="row">
+                    <div style={{marginTop:"35px"}} className="row">
                         <div className="col-md-5">
                             <img className="service-img" src={ServiceTwo}></img>
                         </div>

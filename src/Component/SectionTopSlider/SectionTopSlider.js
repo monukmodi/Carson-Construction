@@ -18,7 +18,7 @@ export default class Sectiontopslider extends Component {
                         <Carousel.Caption>
                             <span data-aos="fade-up" data-aos-delay="500">BUILD WITH CARSON CONSTRUCTION</span>
                             <h1 className="silde-heading text-uppercase" data-aos="fade-up" data-aos-delay="500">We strive to build<br/>what you dream</h1>
-                            <button className="btn slide-bt" data-aos="fade-up" data-aos-delay="500">TAKE A LOOK AROUND</button>
+                            <button className="btn slide-bt" data-aos="fade-up" data-aos-delay="500">Learn More</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -27,7 +27,7 @@ export default class Sectiontopslider extends Component {
                         <Carousel.Caption>
                             <span data-aos="fade-up" data-aos-delay="500">ARE YOU READY?</span>
                             <h1 className="silde-heading text-uppercase" data-aos="fade-up" data-aos-delay="500">An infrastructure that helps<br/>you enhance your business</h1>
-                            <button className="btn slide-bt" data-aos="fade-up" data-aos-delay="500">TAKE A LOOK AROUND</button>
+                            <button className="btn slide-bt" data-aos="fade-up" data-aos-delay="500">Learn More</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

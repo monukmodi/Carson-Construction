@@ -14,8 +14,8 @@ export default class ResilientRubber extends Component {
                     <div className="row">
                        
                         <div className="col-md-7">
-                        <h2 >Custom Design</h2>
-                    <p className="pt-3">Applying Resilient Rubber Resurfacing ensures a slip-free environment which prevents weed growth and growth of molds and dews. Resilient Rubber Resurfacing can be used in pools, patios, driveways, walkways, playgrounds, garage, basements and gym floors. Accidents cannot be avoided but injuries can be avoided by placing a Resilient Rubber Resurfacing at the right place. We use the advanced quality rubber and binder to create a product that is attractive and long-lasting. Thickness’s of the Rubber Resurfacing can be modified to meet varying fall heights and colours can be used depending on the location.</p>
+                        <h2 >Resilient Service</h2>
+                    <p className="pt-3">Applying Resilient Rubber surfacing ensures a slip-free environment which prevents weed growth and growth of molds and dews. Resilient Rubber surfacing can be used in pools, patios, driveways, walkways, playgrounds, garage, basements and gym floors. Accidents cannot be avoided but injuries can be avoided by placing a Resilient Rubber surfacing at the right place. We use the advanced quality rubber and binder to create a product that is attractive and long-lasting. Thickness’s of the Rubber surfacing can be modified to meet varying fall heights and colours can be used depending on the location.</p>
                     <p>It is available in a wide variety of colours and patterns to chose from. The colours and patterns can be customized and it is safe, and it can be installed in a day. Our main Moto is customer satisfaction and happy customers are our inspiration.</p>
                 
                         </div>
@@ -33,7 +33,7 @@ export default class ResilientRubber extends Component {
                 <div className="container pt-3">
                 </div> */}
                 <div className="container">
-                    <div className="row">
+                    <div style={{marginTop:"35px"}} className="row">
                         <div className="col-md-5">
                             <img className="service-img" src={ServiceTwo}></img>
                         </div>

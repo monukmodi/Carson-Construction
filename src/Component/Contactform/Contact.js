@@ -8,7 +8,7 @@ export default class extends Component {
       { Custom: 'contact_Float pt-2', Span_spacing: 'Span_spacing', Font_Awsome: 'fas fa-envelope Awsme_font', title: 'E-MAIL', parag: ' Wbrandname@company.com' },
       { Custom: 'contact_Float pt-2 ', Span_spacing: 'Span_spacing', Font_Awsome: 'fas fa-phone Awsme_font', title: 'TELEPHONE', parag: ' (+371) 512 566 921' },
       { Custom: 'contact_Float pt-2', Span_spacing: 'Span_spacing', Font_Awsome: 'far fa-clock Awsme_font', title: 'WORK HOURS', parag: ' Mon. - Frie. 11AM - 19PM' },
-      { Custom: 'contact_Float pt-2', Span_spacing: 'Span_spacing', Font_Awsome: 'fas fa-info-circle Awsme_font', title: 'ADDITIONAL INFORMATION', parag: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit vel mauris at tincidunt.  ' }
+     
     ]
   }
   render() {

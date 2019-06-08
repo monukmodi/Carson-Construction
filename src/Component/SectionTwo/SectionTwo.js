@@ -8,7 +8,7 @@ export default class SectionTwo extends Component {
     state = {
         constructionsection: [
             { id: 1, part1: Icon1, heading: "Home Renovation", part2: "Where you stay and how you keep your area reflects the person you are. Upgrade your home from boring to a lively ambiance with our home renovation ideas." },
-            { id: 2, part1: Icon2, heading: "Rubber Resurfacing", part2: "Resilient Rubber Surfacing is one of the most preferred choices in modern times due to its safety features and low maintenance." },
+            { id: 2, part1: Icon2, heading: "Rubber Surfacing", part2: "Resilient Rubber Surfacing is one of the most preferred choices in modern times due to its safety features and low maintenance." },
             { id: 3, part1: Icon3, heading: "Painting Basement", part2: "Regular painting keeps your home attractive and acts as a defense against harsh weather and water clogging. Add colours to your life with our latest, trendy collections." },
         ]
     }

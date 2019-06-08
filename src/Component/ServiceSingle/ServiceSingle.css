@@ -12,6 +12,7 @@
         /* background-color: #0d1f47; */
         /* color: #dcdcdc */
         background-color: white;
+        margin-bottom: 0 !important;
 }
 .navi-tog:hover{
         /* border-left: 1px solid rgba(245, 211, 85, 0.88); */

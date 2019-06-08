@@ -11,7 +11,7 @@ export default class Service extends Component {
       { title: "Basement renovation services" },
       { title: "Flooring renovation services" },
       { title: "Painting renovation services" },
-      { title: "Resilient rubber resurfacing" }
+      { title: "Resilient rubber Surfacing" }
 
     ]
   }

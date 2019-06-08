@@ -14,8 +14,8 @@ export default class Restaurant extends Component {
             <div className="row m-0">
                 {this.state.restdata.map(data=>{
                     return(
-                            <div   className="col-md-4 gridimage">
-                                <img  style={{width:"108%"}} className="image" src={data.image} alt=""/>
+                            <div   className="col-md-4 p-1 gridimage">
+                                <img  style={{width:"100%"}} className="image" src={data.image} alt=""/>
                                 <div className="middle">
                                     <div className="text"><h1>{data.name}</h1></div>
                                 </div>

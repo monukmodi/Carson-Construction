@@ -5,8 +5,10 @@ import image2 from '../../../Images/user2.png'
 import './Testmonial.css'
 export default class Testmonial extends Component {
     state={
-        items:[{image:image1,name:'Bazooka Elizabet',number:'99',description:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'},
-               {image:image2,name:'Elizabet Bazooka',number:'99',description:'Fall in love with your bathroom will be distracted by the readable content of a page when looking at its layout.'}
+        items:[{image:image1,name:'Louse Wayne',number:'99',description:'Thank you so much for the beautiful renovations. Your business was highly recommended to me by a friend and you met all my expectations."'},
+               {image:image2,name:'Carol Paul',number:'99',description:'The works quality was outstanding and any queries were rapidly resolved. The site was left clean and ready to move on the promised date and within the budget set.'},
+               {image:image2,name:'Juliet Wilson ',number:'99',description:'Thanks, Carson Constructions again for all your great work. We are really happy with the result. The place looks fabulous!”.'},
+               {image:image2,name:'Janet Rob',number:'99',description:'Their team is well experienced and theyve been selected smartly. Their assistance and professionalism are the best weve seen.'}
                 ]
     }
     render() {

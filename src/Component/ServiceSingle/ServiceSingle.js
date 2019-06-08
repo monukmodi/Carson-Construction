@@ -63,7 +63,7 @@ class ServiceSingle extends Component {
             </div>
             <div className={this.props.selected == "rubber" ? "selected col-md-2 navi-tog" : "col-md-2 navi-tog kkk"}>
                 <div>
-                  <p className="my-2 font-weight-bold" onClick={this.resilientTab}>Resilient rubber resurfacing</p>
+                  <p className="my-2 font-weight-bold" onClick={this.resilientTab}>Resilient rubber surfacing</p>
                 </div>
             </div>
         </div>
