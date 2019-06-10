@@ -41,7 +41,7 @@ export default class SectionTwo extends Component {
 								<div className="col-md-6 col-sm-12">
 									<h4 className="header">{ser.title}</h4>
 									<p className="paragraph text-justify">{ser.desc}</p>
-									<a href={ser.srviceurl}><p className="modified">{ser.button}</p></a>
+									<a href={ser.srviceurl}><button className="modified btn btn-success">{ser.button}</button></a>
 								</div>
 							</div>
 						)

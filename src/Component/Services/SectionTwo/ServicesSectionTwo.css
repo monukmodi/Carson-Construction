@@ -37,11 +37,11 @@ a{
 }
 .modified
 {
-	color:#fab702;
+	color: #fff;
 }
 .modified:hover
 {
-	text-decoration:underline;
+	text-decoration:none;
 }
 .modal-header {
 	    border-bottom: none!important;
