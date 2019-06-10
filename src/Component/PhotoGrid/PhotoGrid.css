@@ -2,11 +2,26 @@
     /* border:2px solid black; */
     margin-bottom: 20px !important;
     margin-top: 10px !important;
+    background-color: #0d1f47;
+    padding: 0 !important;
+    margin-top: 0 !important;
+
 }
 .tab{
-    color: yellow;
     cursor: pointer;
+    color: #000000;
+    /* background-color: #ffffff;  */
 }
 .tabcur{
     cursor: pointer;
+    color: #ffffff;
+}
+.tab-gal{
+    max-width: 14%;
+    /* color:white; */
+    /* background-color: white; */
+
+}
+.click{
+    background-color: white;
 }

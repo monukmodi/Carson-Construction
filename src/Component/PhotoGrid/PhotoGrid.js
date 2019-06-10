@@ -81,22 +81,25 @@ export default class PhotoGrid extends Component {
             <div className="" >
                 <GalleryTop/>
                 <div className="row m-0 p-2 projectGridTabDesign text-center">
-                    <div className="col-md-2" onClick={this.allTab} >
+                    <div className={this.state.all?"col-md-2 tab-gal click" : "col-md-2 tab-gal"} onClick={this.allTab} >
+                        <h6 className={this.state.all? "tab" : "tabcur"} >ALL</h6>
+                    </div>
+                    <div className={this.state.all?"col-md-2 tab-gal click" : "col-md-2 tab-gal"} onClick={this.allTab} >
                         <h6 className={this.state.all? "tab" : "tabcur"} >KITCHEN RENOVATION</h6>
                     </div>
-                    <div className="col-md-2" onClick={this.coffeeTab}>
+                    <div className={this.state.coffee?"col-md-2 tab-gal click" : "col-md-2 tab-gal"} onClick={this.coffeeTab}>
                         <h6 className={this.state.coffee? "tab" : "tabcur"}>BATHROOM RENOVATION</h6>
                     </div>
-                    <div className="col-md-2" onClick={this.houseTab} >
+                    <div className={this.state.house?"col-md-2 tab-gal click" : "col-md-2 tab-gal"} onClick={this.houseTab} >
                         <h6 className={this.state.house? "tab" : "tabcur"}>BASEMENT SERVICE</h6>
                     </div>
-                    <div className="col-md-2" onClick={this.interiorTab}>
+                    <div className={this.state.interior?"col-md-2 tab-gal click" : "col-md-2 tab-gal"} onClick={this.interiorTab}>
                         <h6 className={this.state.interior? "tab" : "tabcur"}>FLOORING SERVICE</h6>
-                    </div>
-                    <div className="col-md-2" onClick={this.restaurantTab}>
+                    </div> 
+                    <div className={this.state.restaurant?"col-md-2 tab-gal click" : "col-md-2 tab-gal"} onClick={this.restaurantTab}>
                         <h6 className={this.state.restaurant? "tab" : "tabcur"}>PAINTING SERVICE</h6>
                     </div>
-                    <div className="col-md-2" onClick={this.restaurantTab}>
+                    <div className={this.state.restaurant?"col-md-2 tab-gal click" : "col-md-2 tab-gal"} onClick={this.restaurantTab}>
                         <h6 className={this.state.restaurant? "tab" : "tabcur"}>RESILIENT RUBBER SURFACING</h6>
                     </div>
                 </div>
