@@ -11,7 +11,7 @@ export default class Kitchen extends Component {
         return (
             <div>
                 <ServiceSingle selected="kitchen"/>
-                <div className="pb-5 my-4">
+                <div className="pb-5 my-5">
 
 
 
@@ -43,7 +43,7 @@ export default class Kitchen extends Component {
                 <div className="container pt-3">
                 </div> */}
                 <div className="container">
-                    <div style={{marginTop:"35px"}} className="row">
+                    <div  className="row mt-5">
                         <div className="col-md-5">
                             <img className="service-img" src={ServiceTwo}></img>
                         </div>

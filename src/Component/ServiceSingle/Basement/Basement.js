@@ -9,7 +9,7 @@ export default class Basement extends Component {
         return (
             <div>
                 <ServiceSingle selected="basement"/>
-                <div className="pb-5 my-4">
+                <div className="pb-5 my-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7">
@@ -31,7 +31,7 @@ export default class Basement extends Component {
                 <div className="container pt-3">
                 </div> */}
                 <div className="container">
-                    <div style={{marginTop:"35px"}} className="row">
+                    <div className="row mt-5">
                         <div className="col-md-5">
                             <img className="service-img" src={ServiceTwo}></img>
                         </div>

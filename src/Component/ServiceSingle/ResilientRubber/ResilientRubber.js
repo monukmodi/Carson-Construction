@@ -9,7 +9,7 @@ export default class ResilientRubber extends Component {
         return (
             <div>
                 <ServiceSingle selected="rubber"/>
-                <div className="pb-5 my-4">
+                <div className="pb-5 my-5">
                 <div className="container">
                     <div className="row">
                        
@@ -33,7 +33,7 @@ export default class ResilientRubber extends Component {
                 <div className="container pt-3">
                 </div> */}
                 <div className="container">
-                    <div style={{marginTop:"35px"}} className="row">
+                    <div  className="row mt-5">
                         <div className="col-md-5">
                             <img className="service-img" src={ServiceTwo}></img>
                         </div>

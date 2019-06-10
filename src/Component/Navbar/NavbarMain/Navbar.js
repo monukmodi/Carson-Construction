@@ -23,7 +23,7 @@ export default class TopNavbar extends Component {
                 {/* <Nav.Link className="social-icon" href="/"><i className="fab fa-twitter"></i></Nav.Link> */}
                 <Nav.Link className="social-icon" href="https://www.facebook.com/Carson-Construction-and-Contracting-1918173991798332/"><i className="fab fa-facebook-f"></i></Nav.Link>
                 <Nav.Link className="social-icon" href="https://www.instagram.com/carsonconstruction/"><i className="fab fa-instagram"></i></Nav.Link>
-                <Nav.Link className="social-icon" href="/"><i class="fas fa-envelope-open-text"></i></Nav.Link>
+                <Nav.Link className="social-icon" href="mailto:webmaster@gmail.com"><i class="fas fa-envelope-open-text"></i></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

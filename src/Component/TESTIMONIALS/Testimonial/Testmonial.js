@@ -5,10 +5,10 @@ import image2 from '../../../Images/user2.png'
 import './Testmonial.css'
 export default class Testmonial extends Component {
     state={
-        items:[{image:image1,name:'Louse Wayne',number:'99',description:'Thank you so much for the beautiful renovations. Your business was highly recommended to me by a friend and you met all my expectations."'},
-               {image:image2,name:'Carol Paul',number:'99',description:'The works quality was outstanding and any queries were rapidly resolved. The site was left clean and ready to move on the promised date and within the budget set.'},
-               {image:image2,name:'Juliet Wilson ',number:'99',description:'Thanks, Carson Constructions again for all your great work. We are really happy with the result. The place looks fabulous!”.'},
-               {image:image2,name:'Janet Rob',number:'99',description:'Their team is well experienced and theyve been selected smartly. Their assistance and professionalism are the best weve seen.'}
+        items:[{image:image1,name:'Louse Wayne',description:'Thank you so much for the beautiful renovations. Your business was highly recommended to me by a friend and you met all my expectations."'},
+               {image:image2,name:'Carol Paul',description:'The works quality was outstanding and any queries were rapidly resolved. The site was left clean and ready to move on the promised date and within the budget set.'},
+               {image:image2,name:'Juliet Wilson ',description:'Thanks, Carson Constructions again for all your great work. We are really happy with the result. The place looks fabulous!”.'},
+               {image:image2,name:'Janet Rob',description:'Their team is well experienced and theyve been selected smartly. Their assistance and professionalism are the best weve seen.'}
                 ]
     }
     render() {
@@ -25,7 +25,7 @@ export default class Testmonial extends Component {
                                     <img className="pt-5" style={{width:"10%"}} src={item.image} alt=""/>  
                                     <p style={{paddingTop:"22px"}}>{item.description}</p>
                                     <h3 style={{paddingTop:"8px"}}>{item.name}</h3>
-                                    <h3 className="pb-4">-{item.number}</h3>
+                                
                                  </Carousel.Item>     
                             )
                         })}

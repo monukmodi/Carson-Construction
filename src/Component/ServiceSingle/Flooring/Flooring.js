@@ -9,7 +9,7 @@ export default class Flooring extends Component {
         return (
             <div>
                 <ServiceSingle selected="flooring"/>
-                <div className="pb-5 my-4">
+                <div className="pb-5 my-5">
 
 
 
