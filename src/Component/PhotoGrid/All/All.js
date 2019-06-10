@@ -48,10 +48,10 @@ export default class All extends Component {
                 {this.state.alldata.map(data=>{
                     return(
                             <div   className="col-md-4 p-1 gridimage" onClick={this.handleShow.bind(this,data.image)}>
-                                <img  style={{width:"100%"}} className="image"  src={data.image} alt=""/>
-                                <div className="middle">
+                                <img  style={{width:"100%"}}   src={data.image} alt=""/>
+                                {/* <div className="middle">
                                     <div className="text"><h1>{data.name}</h1></div>
-                                </div>
+                                </div> */}
                             </div>
                     )
                 })}

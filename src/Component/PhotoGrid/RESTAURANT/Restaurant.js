@@ -15,10 +15,10 @@ export default class Restaurant extends Component {
                 {this.state.restdata.map(data=>{
                     return(
                             <div   className="col-md-4 p-1 gridimage">
-                                <img  style={{width:"100%"}} className="image" src={data.image} alt=""/>
-                                <div className="middle">
+                                <img  style={{width:"100%"}}  src={data.image} alt=""/>
+                                {/* <div className="middle">
                                     <div className="text"><h1>{data.name}</h1></div>
-                                </div>
+                                </div> */}
                                 
                             </div> 
                     )

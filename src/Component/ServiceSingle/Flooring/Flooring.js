@@ -16,7 +16,7 @@ export default class Flooring extends Component {
 
 
                 <div className="container">
-                    <div style={{marginTop:"35px"}} className="row">
+                    <div className="row">
                         
                         <div className="col-md-7">
                         <h2 >Flooring Service</h2>
@@ -40,7 +40,7 @@ export default class Flooring extends Component {
                 <div className="container pt-3">
                 </div> */}
                 <div className="container">
-                    <div className="row">
+                    <div className="row mt-5">
                         <div className="col-md-5">
                             <img className="service-img" src={ServiceTwo}></img>
                         </div>

@@ -9,12 +9,12 @@ import RW6 from '../../Images/WCHomeRW6a.jpg';
  
 export default class Gallery extends Component {
     state={
-        images:[{image:RW1,name:'Bathroom',project:'Renovation'},
-                {image:RW2,name:'Home',project:'Renovation'},
-                {image:RW3,name:'Kitchen',project:'Renovation'},
-                {image:RW4,name:'Basement',project:'Renovation'},
-                {image:RW5,name:'Rubber',project:'Surfacing'},
-                {image:RW6,name:'Painting',project:'Renovation'}    
+        images:[{image:RW1,name:'Bathroom',project:'Renovation',urlimg:'/servicesingle/bathroom'},
+                {image:RW2,name:'Home',project:'Renovation',urlimg:'/servicesingle/'},
+                {image:RW3,name:'Kitchen',project:'Renovation',urlimg:'/servicesingle/kitchen'},
+                {image:RW4,name:'Basement',project:'Renovation',urlimg:'/servicesingle/basement'},
+                {image:RW5,name:'Rubber',project:'Surfacing',urlimg:'/servicesingle/resilientrubber'},
+                {image:RW6,name:'Painting',project:'Renovation',urlimg:'/servicesingle/painting'}    
                 ]
     }
     render() {
@@ -34,6 +34,8 @@ export default class Gallery extends Component {
                 {this.state.images.map(item =>{
                     return(
                     <div className="col-4 mt-3 tttt hovereffect" >
+   
+                    <a href={item.urlimg}>
                         <img className="gImage" style={{width:"100%"}} src={item.image} alt=""/>
                         <div className="middle">
                             <div className="text">
@@ -46,7 +48,9 @@ export default class Gallery extends Component {
                             
                             </div>
                         </div>
+                        </a>
                     </div>
+                    
                     )
                 })}
                 </div>

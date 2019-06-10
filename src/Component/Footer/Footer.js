@@ -31,16 +31,10 @@ export default class Footer extends Component {
         <div className="footer-bg-img">    
         <div className="container">
             <div className="row text-white">
-                <div className="col-md-4 col-sm-12">
+                <div className="col-md-4 col-sm-12 p-2">
                     <img className="footer-logo" src={Logo}/>
                     <p> Carson Constructions & Contracting offers high-efficiency and cost-effective quality services. 
                         We offer services pertaining to renovating kitchen, Basement, Bathroom, Living Space, roofing, etc.
-                    </p>
-                    <p>
-                        <a className="social-media"><i className="fab fa-twitter"></i></a>
-                        <a className="social-media"><i className="fab fa-facebook-f"></i></a>
-                        <a className="social-media"><i className="fab fa-instagram"></i></a>
-                        <a className="social-media"><i className="fab fa-youtube"></i></a>
                     </p>
                 </div>
                 <div className="col-md-4 col-sm-12">

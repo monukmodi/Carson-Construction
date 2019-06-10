@@ -24,7 +24,7 @@ export default class Testmonial extends Component {
                                 <Carousel.Item>
                                     <img className="pt-5" style={{width:"10%"}} src={item.image} alt=""/>  
                                     <p style={{paddingTop:"22px"}}>{item.description}</p>
-                                    <h3 style={{paddingTop:"8px"}}>{item.name}</h3>
+                                    <h3 className="pt-1 pb-4">{item.name}</h3>
                                 
                                  </Carousel.Item>     
                             )
